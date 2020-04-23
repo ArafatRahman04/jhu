@@ -49,11 +49,13 @@ body{
 	color: black;
 	font-weight: bold;
 	text-align: center;
-	
+	background-color: white;
+	margin-bottom: 10 solid black;
+
 }
 
-#nav-list a:hover {
-	background:white;
+.active,#nav-list a:hover {
+	background:gray;
 }
 
 
@@ -66,7 +68,10 @@ body{
 }
 /* END HEADER */
 
-
+.h1{
+	text-align: center;
+	font-weight: bold;
+}
 
 /* Home page */
 .container .h1{
@@ -79,6 +84,7 @@ body{
 	opacity: .7;
 	font-family: 'Arial', sans-serif;
 	font-weight: bold;
+	padding: 10px;
 
 	
 }
@@ -90,7 +96,8 @@ body{
 	font-weight: 1.3em;
 	font-weight: bold;
 	color: black;
-	margin-top: -20px;
+	margin-top:0px;
+
 }
 
 /******** Medium Devices Only *********/
@@ -103,6 +110,7 @@ body{
 	width: 100%;
 	background-color:gray;
 	opacity: .7;
+	padding: 10px;
 	}
 /* End Home Page */
 
@@ -116,6 +124,7 @@ body{
 	.container .jumbotron{
 	background-color:gray;
 	opacity: .7;
+	padding: 10px;
 		
 	}
 /* End Home Page */
@@ -155,5 +164,3 @@ body{
 	}
 
 /* End Home Page */
-}
-
